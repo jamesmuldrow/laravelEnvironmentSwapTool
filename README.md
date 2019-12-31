@@ -9,7 +9,12 @@ Help will output the following:
 ./envswap --h
 ````
 ````text
-Purpose: This program will be used to swap environment files when using the laravel or lumen frameworks.
+                          Environment Swap Tool 1.0
+                                Developed by
+                              James A. Muldrow
+                             www.codespace.blog
+
+Purpose: This program is used to swap environment files when using the laravel or lumen frameworks.
 
 Usage: envswap --h
 Usage: envswap -e [environment]
@@ -21,6 +26,7 @@ This program requires that you have a file named .env.[dev name] in the local di
 [dev name] can be local, remote, staging, etc; This program will overwrite the .env file with data from the specified env file.
 Do NOT write directly to the .env file. Write to .env.local, .env.remote, and
 then run this app in order to switch dev environments.
+
 ````
 
 Enjoy, and feel free to make recommendations.
