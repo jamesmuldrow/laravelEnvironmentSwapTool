@@ -9,6 +9,7 @@ Help will output the following:
 ./envswap --h
 ````
 ````text
+
                           Environment Swap Tool 1.0
                                 Developed by
                               James A. Muldrow
@@ -18,14 +19,17 @@ Purpose: This program is used to swap environment files when using the laravel o
 
 Usage: envswap --h
 Usage: envswap -e [environment]
+Usage: envswap -e [environment] [optional flag: "--ignore_questions"]
+
 
 Example: envswap -e local
+Example: envswap -e local --ignore_questions
 
 
 This program requires that you have a file named .env.[dev name] in the local directory
 [dev name] can be local, remote, staging, etc; This program will overwrite the .env file with data from the specified env file.
 Do NOT write directly to the .env file. Write to .env.local, .env.remote, and
-then run this app in order to switch dev environments.
+then run this program in order to switch dev environments.
 
 ````
 
