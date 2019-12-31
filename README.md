@@ -27,8 +27,8 @@ Example: envswap -e local --ignore_questions
 
 
 This program requires that you have a file named .env.[dev name] in the local directory
-[dev name] can be local, remote, staging, etc; This program will overwrite the .env file with data from the specified env file.
-Do NOT write directly to the .env file. Write to .env.local, .env.remote, and
+[dev name] can be local, remote, staging, etc; This program will overwrite the .env file with data from 
+the specified env file. Do NOT write directly to the .env file. Write to .env.local, .env.remote, and
 then run this program in order to switch dev environments.
 
 ````
