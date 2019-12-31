@@ -56,7 +56,8 @@ int swapEnvFile(char * env){
         cin >> input;
         if (input == string("yes") || input == "YES"){
             filesystem::copy_file(fileName, "./.env", filesystem::copy_options::overwrite_existing);
-            cout << "\nEnvironment swap complete. Goodbye.\n";
+            cout << "\nEnvironment swap complete. You are now using the: \""<< 
+            env << "\" environment variables. Goodbye.\n\n";
         } else if (input == string("no") || input == "NO") {
             cout << "\nOk, no changes were made. Goodbye!\n\n";
         } else {
