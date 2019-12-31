@@ -25,11 +25,13 @@ using namespace std;
 string printHelp(bool extended = false){
     string helpString = "";
     if (extended == false){
-        helpString = "\nUsage: envswap --h\n" \
+        helpString = "\nPurpose: This program will be used to swap environment files when using the laravel or lumen frameworks.\n" \
+                        "\nUsage: envswap --h\n" \
                         "Usage: envswap -e [environment]\n" \
                         "\nExample: envswap -e local\n\n";
     } else {
-        helpString = "\nUsage: envswap --h\n" \
+        helpString = "\nPurpose: This program will be used to swap environment files when using the laravel or lumen frameworks.\n" \
+                        "\nUsage: envswap --h\n" \
                         "Usage: envswap -e [environment]\n" \
                         "\nExample: envswap -e local\n\n" \
                         "\nThis program requires that you have a file named .env.[dev name] in the " \

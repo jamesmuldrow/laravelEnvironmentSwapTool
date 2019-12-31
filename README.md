@@ -9,6 +9,8 @@ Help will output the following:
 ./envswap --h
 ````
 ````text
+Purpose: This program will be used to swap environment files when using the laravel or lumen frameworks.
+
 Usage: envswap --h
 Usage: envswap -e [environment]
 
