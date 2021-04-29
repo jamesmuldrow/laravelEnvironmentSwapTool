@@ -1,4 +1,4 @@
-# LARAVEL ENVIRONMENT SWAP TOOL
+mu# LARAVEL ENVIRONMENT SWAP TOOL
 
 ### This tool was developed in order to simplify the process associated with swapping between environments in laravel.
 
@@ -13,7 +13,7 @@ Help will output the following:
                           Environment Swap Tool 1.0
                                 Developed by
                               James A. Muldrow
-                             www.codespace.blog
+                             www.jamesmuldrow.com
 
 Purpose: This program is used to swap environment files when using the laravel or lumen frameworks.
 
