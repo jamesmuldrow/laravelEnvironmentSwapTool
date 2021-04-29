@@ -1,6 +1,11 @@
-mu# LARAVEL ENVIRONMENT SWAP TOOL
+# LARAVEL ENVIRONMENT SWAP TOOL
 
 ### This tool was developed in order to simplify the process associated with swapping between environments in laravel.
+
+### The current binary was compiled on a Mac. To compile from source to support your OS id the binary does not work use g++ or your favorite compiler as follows:
+````
+g++ envswap.cpp -o envswap
+````
 
 ### To use the envswap binary, simply clone the repo and drop envswap in the laravel root directory.
 
